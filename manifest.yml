@@ -1,0 +1,6 @@
+applications:
+- name : fiorioncloud24
+buildpacks: 
+  nodejs_buildpack
+memory : 256M  
+ 
