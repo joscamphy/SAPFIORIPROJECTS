@@ -4,12 +4,13 @@
   "description": "Cloud App",
   "main": "index.js",
   "scripts": {
-    "start":"node .",
+    "start": "ui5 serve --open index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
+  "dependencies": {},
+  "devDependencies": {
+    "@ui5/cli": "^2.12.1"
   }
 }
