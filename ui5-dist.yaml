@@ -8,7 +8,10 @@ server:
     afterMiddleware: compression
     configuration :
       port : 35729 
-
+resources :
+  configuration :
+    paths :
+      webapp : dist
 	
  
  
